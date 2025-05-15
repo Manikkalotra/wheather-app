@@ -9,19 +9,6 @@
 .app {
   min-height: 100vh;
   display: grid;
-  background: lightgray;
+  background: white;
 }
 
-@media (max-width: 768px) {
-  .app{
-    width: 100%;
-    margin: 10px 0;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .app{
-    width: 70%;
-    margin: 20px auto;
-  }
-}
